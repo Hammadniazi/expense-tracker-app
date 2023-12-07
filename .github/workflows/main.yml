@@ -39,4 +39,4 @@ jobs:
       - name: installing surge 
         run: sudo npm install --global surge
       - name: deploying on surge 
-        run: surge ./build https://bootcamp-decm.surge.sh/ --token$ {{secrets.SURGE_TOKEN5}}
+        run: surge ./build http://expense-tracker-app-demo.surge.sh/ --token$ {{secrets.SURGE_TOKEN5}}
